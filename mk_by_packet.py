@@ -12,7 +12,7 @@ import pickle
 
 def main(re_name):
     apps = ['snort', 'suricata', 'Lastline', 'pa3220', 'ddi4100', 'sourcefire']
-    base_dir = '/home/nonstop_kyushu-u6/kyudai/dump01/%s/' % (re_name)
+    base_dir = './%s/' % (re_name)
     replay_log = base_dir + '%s.log' % (re_name)
     outses = base_dir + '%sses.csv' % (re_name)
     #outgroup = base_dir + '%sgroup.csv' % (re_name)
