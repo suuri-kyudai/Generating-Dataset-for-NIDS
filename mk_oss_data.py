@@ -12,7 +12,7 @@ import pickle
 
 def main(re_name, year):
     apps = ['snort', 'suricata']
-    base_dir = '/home/nonstop_kyushu-u6/kyudai/dump01/%s/' % (re_name)
+    base_dir = './%s/' % (re_name)
     snort_file = base_dir + '%s_snort.txt' % (re_name)
     suricata_file = base_dir + '%s_suricata.txt' % (re_name)
     re_pcap = base_dir + '%s.pcap' % (re_name)
@@ -27,8 +27,10 @@ def main(re_name, year):
     print(replay_log)
     (start, end) = get_params(replay_log)
 
+    mkdir0 = ['mkdir', '-p', base_dir]
     mkdir1 = ['mkdir', '-p', caps_4e_alert]
     mkdir2 = ['mkdir', '-p', caps_4e_group]
+    subprocess.run(mkdir0)
     subprocess.run(mkdir1)
     subprocess.run(mkdir2)
 
