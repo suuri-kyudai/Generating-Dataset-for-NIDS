@@ -41,3 +41,5 @@ When the script is executed, `binary` datasets with a binary label of normal or 
 
 ## 6. We will publish the dataset of the result processed by us based on CICIDS 2018.
 The data set generated in the above steps 1 to 5 based on CICIDS 2018 is released as a zip file.
+
+##test
