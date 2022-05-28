@@ -9,7 +9,7 @@ The flow of datasets generation is as follows.
 3. Replay and get alerts from NIDS
 4. Generate per-session labeled datasets with `mk_oss_data.py`
 5. Generates per-packet labeled datasets with `mk_by_packet.py`
-6. We publish the dataset of the result processed by us based on CICIDS 2018.
+6. We publish the dataset of the result processed by us based on CICIDS 2018 (`binary.zip` and `multi.zip`)
 
 If you find this work useful, please cite our paper.
 ```
@@ -74,6 +74,6 @@ When the script is executed, `binary` datasets with a binary label of normal or 
 
 <br> 
 
-### 6. We publish the dataset of the result processed by us based on CICIDS 2018.
+### 6. We publish the dataset of the result processed by us based on CICIDS 2018 (`binary.zip` and `multi.zip`)
 The data set generated in the above steps 1 to 5 based on CICIDS 2018 is released as a zip file. (`binary.zip` and `multi.zip`)
 
